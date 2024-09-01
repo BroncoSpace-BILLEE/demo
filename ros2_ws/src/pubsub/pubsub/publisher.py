@@ -26,6 +26,8 @@ class Publisher(Node):
         msg.data = f'{self.count} hello world'
 
         self.count += 1
+
+        self.publisher.publish(msg)
             
 
 def main(args=None):
