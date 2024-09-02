@@ -16,6 +16,7 @@ class Publisher(Node):
         )
 
     def sub_callback(self, msg):
+        # can't use regular print() statement in ros
         self.get_logger().info(msg.data)
             
 
