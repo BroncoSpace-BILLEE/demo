@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+# here's why i do the weird import statements https://answers.ros.org/question/405527/is-rclpy-and-rclpynode-different/
 
 import std_msgs.msg
 
